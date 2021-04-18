@@ -1,1 +1,15 @@
+project="Calculator"
+print (project)
+what=input("What we do? (+, -)")
 
+a=float(input("First number:"))
+b=float(input("Second number:"))
+
+if what == "+":
+    c=a+b
+    print ("result:" + str(c))
+elif what == "-":
+    c=a-b
+    print ("result:" + str(c))
+else:
+    print ("The selected operation is invalid")
